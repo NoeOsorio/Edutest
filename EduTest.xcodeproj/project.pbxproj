@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCCF491B20C720C2003FADC4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF491A20C720C2003FADC4 /* MenuViewController.swift */; };
+		DCCF491D20C721F4003FADC4 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF491C20C721F4003FADC4 /* MenuCollectionViewCell.swift */; };
 		DCD803CE20C7152500359C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD803CD20C7152500359C61 /* AppDelegate.swift */; };
 		DCD803D020C7152500359C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD803CF20C7152500359C61 /* ViewController.swift */; };
 		DCD803D320C7152500359C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD803D120C7152500359C61 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DCCF491A20C720C2003FADC4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DCCF491C20C721F4003FADC4 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		DCD803CA20C7152500359C61 /* EduTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD803CD20C7152500359C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCD803CF20C7152500359C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				DCD803CD20C7152500359C61 /* AppDelegate.swift */,
 				DCD803CF20C7152500359C61 /* ViewController.swift */,
+				DCCF491A20C720C2003FADC4 /* MenuViewController.swift */,
+				DCCF491C20C721F4003FADC4 /* MenuCollectionViewCell.swift */,
 				DCD803D120C7152500359C61 /* Main.storyboard */,
 				DCD803D420C7152500359C61 /* Assets.xcassets */,
 				DCD803D620C7152500359C61 /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD803D020C7152500359C61 /* ViewController.swift in Sources */,
+				DCCF491B20C720C2003FADC4 /* MenuViewController.swift in Sources */,
 				DCD803CE20C7152500359C61 /* AppDelegate.swift in Sources */,
+				DCCF491D20C721F4003FADC4 /* MenuCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
