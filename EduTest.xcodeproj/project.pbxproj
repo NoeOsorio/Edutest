@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DCCF491B20C720C2003FADC4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF491A20C720C2003FADC4 /* MenuViewController.swift */; };
-		DCCF491D20C721F4003FADC4 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF491C20C721F4003FADC4 /* MenuCollectionViewCell.swift */; };
+		DCCF492720C863D4003FADC4 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF492620C863D4003FADC4 /* MenuVC.swift */; };
+		DCCF492920C863E6003FADC4 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF492820C863E6003FADC4 /* MenuCell.swift */; };
+		DCCF492B20C873DC003FADC4 /* Assets 14-55-59-167.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCF492A20C873DC003FADC4 /* Assets 14-55-59-167.xcassets */; };
 		DCD803CE20C7152500359C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD803CD20C7152500359C61 /* AppDelegate.swift */; };
 		DCD803D020C7152500359C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD803CF20C7152500359C61 /* ViewController.swift */; };
 		DCD803D320C7152500359C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD803D120C7152500359C61 /* Main.storyboard */; };
-		DCD803D520C7152500359C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD803D420C7152500359C61 /* Assets.xcassets */; };
 		DCD803D820C7152500359C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD803D620C7152500359C61 /* LaunchScreen.storyboard */; };
 		DCD803E320C7152600359C61 /* EduTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD803E220C7152600359C61 /* EduTestTests.swift */; };
 		DCD803EE20C7152600359C61 /* EduTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD803ED20C7152600359C61 /* EduTestUITests.swift */; };
@@ -36,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DCCF491A20C720C2003FADC4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		DCCF491C20C721F4003FADC4 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCCF492620C863D4003FADC4 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		DCCF492820C863E6003FADC4 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		DCCF492A20C873DC003FADC4 /* Assets 14-55-59-167.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 14-55-59-167.xcassets"; sourceTree = "<group>"; };
 		DCD803CA20C7152500359C61 /* EduTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD803CD20C7152500359C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCD803CF20C7152500359C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCD803D220C7152500359C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCD803D420C7152500359C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD803D720C7152500359C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCD803D920C7152500359C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCD803DE20C7152600359C61 /* EduTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,11 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				DCD803CD20C7152500359C61 /* AppDelegate.swift */,
+				DCCF492620C863D4003FADC4 /* MenuVC.swift */,
+				DCCF492A20C873DC003FADC4 /* Assets 14-55-59-167.xcassets */,
+				DCCF492820C863E6003FADC4 /* MenuCell.swift */,
 				DCD803CF20C7152500359C61 /* ViewController.swift */,
-				DCCF491A20C720C2003FADC4 /* MenuViewController.swift */,
-				DCCF491C20C721F4003FADC4 /* MenuCollectionViewCell.swift */,
 				DCD803D120C7152500359C61 /* Main.storyboard */,
-				DCD803D420C7152500359C61 /* Assets.xcassets */,
 				DCD803D620C7152500359C61 /* LaunchScreen.storyboard */,
 				DCD803D920C7152500359C61 /* Info.plist */,
 			);
@@ -239,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD803D820C7152500359C61 /* LaunchScreen.storyboard in Resources */,
-				DCD803D520C7152500359C61 /* Assets.xcassets in Resources */,
+				DCCF492B20C873DC003FADC4 /* Assets 14-55-59-167.xcassets in Resources */,
 				DCD803D320C7152500359C61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,9 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD803D020C7152500359C61 /* ViewController.swift in Sources */,
-				DCCF491B20C720C2003FADC4 /* MenuViewController.swift in Sources */,
+				DCCF492920C863E6003FADC4 /* MenuCell.swift in Sources */,
 				DCD803CE20C7152500359C61 /* AppDelegate.swift in Sources */,
-				DCCF491D20C721F4003FADC4 /* MenuCollectionViewCell.swift in Sources */,
+				DCCF492720C863D4003FADC4 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NB6C6JTK7;
 				INFOPLIST_FILE = EduTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.candycloud.EduTest;
@@ -449,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NB6C6JTK7;
 				INFOPLIST_FILE = EduTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.candycloud.EduTest;
