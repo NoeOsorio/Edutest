@@ -22,6 +22,10 @@ class MenuCell: UITableViewCell {
         
         // Configure the view for the selected state
     }
-    
+    override func setHighlighted(_ highlighted: Bool, animated: Bool) {
+        super.setHighlighted(highlighted, animated: animated)
+         
+        
+    }
 
 }

@@ -10,13 +10,15 @@ import UIKit
 
 class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet var menuB: UIBarButtonItem!
     @IBOutlet var table: UITableView!
     //Arreglo de iconos
     var iconos:[[String:String]] =
         [["materia":"Español","icono":"open-bookbw.png",],
          ["materia":"Matematicas","icono":"abacusbw.png"],
-         ["materia":"Ciencias","icono":"blackboardbw.png"],
-        ["materia":"Geografia", "icono":"earth-globebw.png"]]
+         ["materia":"Ciencias","icono":"atombw.png"],
+         ["materia":"Geografia","icono":"earth-globebw.png"],
+         ["materia":"Ingles","icono":"blackboardbw.png"]]
     var colores = [UIColor(red:0.98, green:0.97, blue:0.97, alpha:1.0),
                    UIColor(red:0.38, green:0.94, blue:0.72, alpha:1.0),
                    UIColor(red:0.81, green:0.99, blue:0.53, alpha:1.0),
@@ -38,13 +40,30 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Tocado \(indexPath.row)")
+        performSegue(withIdentifier: "next", sender: self)
+    }
+    
+    func sideMenu(){
+        if revealViewController() != nil{
+            menuB.target = revealViewController()
+            menuB.action = #selector(SWRevealViewController.revealToggle(_:))
+            revealViewController().rearViewRevealWidth = 275
+            revealViewController().rightViewRevealWidth = 160
+            
+        
+            view.addGestureRecognizer(
+                self.revealViewController().panGestureRecognizer())
+        }
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         table.rowHeight = UITableViewAutomaticDimension
         
+        sideMenu()
     }
 
 
