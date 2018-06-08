@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DC34573320C9B072007DB7A2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC34573120C9B070007DB7A2 /* SWRevealViewController.m */; };
+		DC34573A20CA0973007DB7A2 /* LectureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34573920CA0973007DB7A2 /* LectureCell.swift */; };
+		DC34573E20CAFD98007DB7A2 /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34573D20CAFD98007DB7A2 /* ContentVC.swift */; };
 		DCCF492720C863D4003FADC4 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF492620C863D4003FADC4 /* MenuVC.swift */; };
 		DCCF492920C863E6003FADC4 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF492820C863E6003FADC4 /* MenuCell.swift */; };
 		DCCF492B20C873DC003FADC4 /* Assets 14-55-59-167.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCF492A20C873DC003FADC4 /* Assets 14-55-59-167.xcassets */; };
@@ -40,6 +42,8 @@
 		DC34573020C9B06E007DB7A2 /* EduTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EduTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		DC34573120C9B070007DB7A2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DC34573220C9B071007DB7A2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DC34573920CA0973007DB7A2 /* LectureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureCell.swift; sourceTree = "<group>"; };
+		DC34573D20CAFD98007DB7A2 /* ContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentVC.swift; path = ../ContentVC.swift; sourceTree = "<group>"; };
 		DCCF492620C863D4003FADC4 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		DCCF492820C863E6003FADC4 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		DCCF492A20C873DC003FADC4 /* Assets 14-55-59-167.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 14-55-59-167.xcassets"; sourceTree = "<group>"; };
@@ -105,17 +109,19 @@
 		DCD803CC20C7152500359C61 /* EduTest */ = {
 			isa = PBXGroup;
 			children = (
+				DC34573D20CAFD98007DB7A2 /* ContentVC.swift */,
 				DCD803CD20C7152500359C61 /* AppDelegate.swift */,
+				DCD803CF20C7152500359C61 /* ViewController.swift */,
 				DCCF492620C863D4003FADC4 /* MenuVC.swift */,
 				DCCF492A20C873DC003FADC4 /* Assets 14-55-59-167.xcassets */,
-				DCCF492820C863E6003FADC4 /* MenuCell.swift */,
-				DC34573220C9B071007DB7A2 /* SWRevealViewController.h */,
-				DC34573120C9B070007DB7A2 /* SWRevealViewController.m */,
-				DCD803CF20C7152500359C61 /* ViewController.swift */,
 				DCD803D120C7152500359C61 /* Main.storyboard */,
+				DCCF492820C863E6003FADC4 /* MenuCell.swift */,
+				DC34573920CA0973007DB7A2 /* LectureCell.swift */,
 				DCD803D620C7152500359C61 /* LaunchScreen.storyboard */,
-				DCD803D920C7152500359C61 /* Info.plist */,
+				DC34573120C9B070007DB7A2 /* SWRevealViewController.m */,
+				DC34573220C9B071007DB7A2 /* SWRevealViewController.h */,
 				DC34573020C9B06E007DB7A2 /* EduTest-Bridging-Header.h */,
+				DCD803D920C7152500359C61 /* Info.plist */,
 			);
 			path = EduTest;
 			sourceTree = "<group>";
@@ -274,8 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD803D020C7152500359C61 /* ViewController.swift in Sources */,
+				DC34573A20CA0973007DB7A2 /* LectureCell.swift in Sources */,
 				DCCF492920C863E6003FADC4 /* MenuCell.swift in Sources */,
 				DC34573320C9B072007DB7A2 /* SWRevealViewController.m in Sources */,
+				DC34573E20CAFD98007DB7A2 /* ContentVC.swift in Sources */,
 				DCD803CE20C7152500359C61 /* AppDelegate.swift in Sources */,
 				DCCF492720C863D4003FADC4 /* MenuVC.swift in Sources */,
 			);

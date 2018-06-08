@@ -41,11 +41,11 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Tocado \(indexPath.row)")
+        
         performSegue(withIdentifier: "next", sender: self)
     }
     
-    func sideMenu(){
+   func sideMenu(){
         if revealViewController() != nil{
             menuB.target = revealViewController()
             menuB.action = #selector(SWRevealViewController.revealToggle(_:))
