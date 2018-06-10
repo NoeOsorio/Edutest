@@ -33,9 +33,12 @@ class ContentVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             cell.imagen.image = UIImage(named: img)
         }
         
-        
-        
+        cell.setHighlighted(false, animated: true)
         return cell
+    }
+    func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.isHighlighted = false
+        tableView.cellForRow(at: indexPath)?.setHighlighted(false, animated: false)
     }
 
 }

@@ -36,7 +36,6 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         }
         cell.title.text = iconos[indexPath.row]["materia"]
         cell.backgroundColor = colores[indexPath.row % 4]
-        
         return cell
     }
     
@@ -44,6 +43,11 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         performSegue(withIdentifier: "next", sender: self)
     }
+    //Esto evita que la celda se ponga gris a la hora de tocarla
+    func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.isHighlighted = false
+    }
+    
     
    func sideMenu(){
         if revealViewController() != nil{
