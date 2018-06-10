@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C5B2A4D20CC4FE600941D08 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B2A4C20CC4FE600941D08 /* QuestionViewController.swift */; };
+		5C5B2A4F20CC983300941D08 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5C5B2A4E20CC983300941D08 /* Podfile */; };
 		DC34573320C9B072007DB7A2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC34573120C9B070007DB7A2 /* SWRevealViewController.m */; };
 		DC34573A20CA0973007DB7A2 /* LectureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34573920CA0973007DB7A2 /* LectureCell.swift */; };
 		DC34573E20CAFD98007DB7A2 /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34573D20CAFD98007DB7A2 /* ContentVC.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		5C5B2A4C20CC4FE600941D08 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		5C5B2A4E20CC983300941D08 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		DC34573020C9B06E007DB7A2 /* EduTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EduTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		DC34573120C9B070007DB7A2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DC34573220C9B071007DB7A2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				DC34573220C9B071007DB7A2 /* SWRevealViewController.h */,
 				DC34573020C9B06E007DB7A2 /* EduTest-Bridging-Header.h */,
 				DCD803D920C7152500359C61 /* Info.plist */,
+				5C5B2A4E20CC983300941D08 /* Podfile */,
 			);
 			path = EduTest;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				DCD803D820C7152500359C61 /* LaunchScreen.storyboard in Resources */,
 				DCCF492B20C873DC003FADC4 /* Assets 14-55-59-167.xcassets in Resources */,
+				5C5B2A4F20CC983300941D08 /* Podfile in Resources */,
 				DCD803D320C7152500359C61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
